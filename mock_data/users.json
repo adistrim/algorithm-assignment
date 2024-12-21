@@ -1,0 +1,129 @@
+{
+    "users": [
+        {
+            "id": "user1",
+            "name": "Alex Thompson",
+            "age": 28,
+            "gender": "male",
+            "interested_in": "female",
+            "location": "New York",
+            "hobbies": [
+                "hiking",
+                "photography",
+                "cooking"
+            ],
+            "interests": [
+                "travel",
+                "music",
+                "technology"
+            ],
+            "occupation": "Software Engineer",
+            "education_level": "Masters",
+            "personality_traits": [
+                "outgoing",
+                "creative",
+                "ambitious"
+            ]
+        },
+        {
+            "id": "user2",
+            "name": "Sarah Chen",
+            "age": 26,
+            "gender": "female",
+            "interested_in": "male",
+            "location": "Boston",
+            "hobbies": [
+                "yoga",
+                "painting",
+                "cooking"
+            ],
+            "interests": [
+                "art",
+                "travel",
+                "sustainability"
+            ],
+            "occupation": "UX Designer",
+            "education_level": "Bachelors",
+            "personality_traits": [
+                "creative",
+                "analytical",
+                "empathetic"
+            ]
+        },
+        {
+            "id": "user3",
+            "name": "Michael Rodriguez",
+            "age": 30,
+            "gender": "male",
+            "interested_in": "female",
+            "location": "San Francisco",
+            "hobbies": [
+                "surfing",
+                "guitar",
+                "photography"
+            ],
+            "interests": [
+                "music",
+                "outdoors",
+                "technology"
+            ],
+            "occupation": "Product Manager",
+            "education_level": "Masters",
+            "personality_traits": [
+                "adventurous",
+                "logical",
+                "outgoing"
+            ]
+        },
+        {
+            "id": "user4",
+            "name": "Emily Parker",
+            "age": 27,
+            "gender": "female",
+            "interested_in": "male",
+            "location": "Seattle",
+            "hobbies": [
+                "hiking",
+                "reading",
+                "photography"
+            ],
+            "interests": [
+                "travel",
+                "environment",
+                "technology"
+            ],
+            "occupation": "Data Scientist",
+            "education_level": "PhD",
+            "personality_traits": [
+                "intellectual",
+                "adventurous",
+                "independent"
+            ]
+        },
+        {
+            "id": "user5",
+            "name": "David Kim",
+            "age": 29,
+            "gender": "male",
+            "interested_in": "female",
+            "location": "Chicago",
+            "hobbies": [
+                "basketball",
+                "cooking",
+                "music"
+            ],
+            "interests": [
+                "sports",
+                "food",
+                "travel"
+            ],
+            "occupation": "Marketing Manager",
+            "education_level": "Bachelors",
+            "personality_traits": [
+                "energetic",
+                "social",
+                "creative"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# C extensions
+*.pyd
+
+# Distribution / packaging
+.Python
+.env/
+.venv/
+env/
+venv/
+ENV/
+*.egg-info/
+*.eggs/
+dist/
+build/
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Pytest cache
+.pytest_cache/
+
+# Django stuff (if relevant)
+*.log
+
+# Environment variables
+.env
+*.env.*
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Docker
+*.stackdump
+docker-compose.override.yml
+
+# PyCharm
+.idea/
+
+# SQL Database files
+*.sqlite3
+
+# Mypy
+.mypy_cache/
+dmypy.json
+dmypy.log
+dmypy.log.*.json
+
+# FastAPI specific
+app/static/
+instance/
+logs/
+__pycache__/
+*.log
+
+# IDE and editor files
+*.swp
+*.swo
+*~
