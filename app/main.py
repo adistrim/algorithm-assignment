@@ -2,7 +2,7 @@ from fastapi import FastAPI, HTTPException
 from typing import List, Dict
 import json
 from .models import User, MatchResult
-from .matching.algorithm import calculate_matches
+from .matching.algorithm import calculate_matches, get_compatibility_score
 
 app = FastAPI(title="Dating App Matchmaking API")
 
@@ -32,14 +32,13 @@ async def get_compatibility(user_id1: str, user_id2: str) -> Dict:
     """
     Calculate compatibility score between two specific users
     """
-
     user1 = next((u for u in USER_DATA if u["id"] == user_id1), None)
     user2 = next((u for u in USER_DATA if u["id"] == user_id2), None)
     
     if not user1 or not user2:
         raise HTTPException(status_code=404, detail="One or both users not found")
     
-    score = calculate_matches.get_compatibility_score(user1, user2)
+    score = get_compatibility_score(user1, user2)
     
     return {
         "user1_id": user_id1,
